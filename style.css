@@ -1,10 +1,214 @@
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive; 
+*/
+
 /* :default css  */
-body{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.pad-10 {
+  padding: 0% 10%;
+}
+.btn {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  background-color: #ff5959;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  /* font-family: "Poppins", sans-serif; */
+}
+.content-desc {
+  font-size: 18px;
+  line-height: 28px;
+  /* font-family: "Poppins", sans-serif; */
+  color: #333333;
+  margin: 20px 0;
+}
+.default-text {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 400;
+}
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 70px;
+  color: #13103a;
+  margin-bottom: 50px;
+}
+/* header section css  */
+.header-section-start {
+  display: flex;
+  padding: 0 4%;
+}
+.header-section-start .header-left {
+  width: 50%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.header-section-start .header-left .header-title {
+  font-size: 60px;
+  line-height: 80px;
+  font-family: "Yeseva One", cursive;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.header-section-start .header-left .header-title span {
+  color: #ffad5a;
+}
+.header-section-start .header-left .default-text {
+  margin-top: 30px;
+}
+
+.header-section-start .header-right {
+  width: 50%;
+}
+.header-section-start .header-right .header-image {
+  width: 546px;
+  height: 540px;
+}
+.header-section-start .header-right .header-image img {
+  width: 100%;
+  height: 100%;
+}
+/* second section css start  */
+.second-section-start .section-title span {
+  color: #ffad5a;
+}
+.second-section-start .card-area {
+  display: flex;
+}
+.second-section-start .single-card .card-img {
+  width: 120px;
+  height: 120px;
+}
+.second-section-start .single-card img {
+  width: 100%;
+  height: 100%;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 15px 0;
+  color: #333333;
+}
+.single-card {
+  margin: 0 20px;
+  padding: 15px;
+  background-color: red;
+  border-radius: 10px;
+}
+.card-one {
+  background-color: #edf5f6;
+}
+.card-two {
+  background-color: #ffeeee;
+}
+.card-three {
+  background-color: #fff4d6;
+}
+/* third section start  */
+
+.third-section-start {
+  /* background-image: url(./image/shape-1.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center; */
+  display: flex;
+  padding: 10% 10%;
+}
+.banner-area {
+  width: 40%;
+}
+.banner-image {
+  width: 380px;
+  height: 380px;
+}
+.banner-area img {
+  width: 100%;
+  height: 100%;
+}
+.content-area {
+  width: 60%;
+  padding: 50px;
+}
+.content-title {
+  font-size: 36px;
+  color: #333333;
+}
+
+/* forth section css start */
+
+.forth-section-start {
+  display: flex;
+}
+
+/* fifth section css start  */
+.fifth-section-start {
+  margin-top: 70px;
+}
+.fifth-section-start span {
+  color: #ffad5a;
+}
+.fifth-section-start .content-body {
+  display: flex;
+}
+.fifth-section-start .banner-area {
+  width: 50%;
+}
+.fifth-section-start .banner-image {
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+}
+.fifth-section-start .banner-image img {
+  width: 100%;
+  height: 100%;
+}
+.fifth-section-start .content-area {
+  width: 50%;
+  margin-top: 100px;
+  padding-right: 7%;
+  box-sizing: border-box;
+}
+
+/* footer section css start  */
+
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 1%;
+}
+footer .footer-title {
+  font-size: 36px;
+  line-height: 44px;
+  font-family: "Lobster", cursive;
+  color: #fff;
+  margin: 20px 0;
+  letter-spacing: 0.5px;
+}
+footer .footer-title span {
+  color: #ff5959;
+}
+footer .copyright-text {
+  color: #fff;
+  letter-spacing: 0.5px;
 }
